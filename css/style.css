@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.userCard {
+    max-width: 940px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+.userCard .pictureAndText {
+    padding: 50px;
+    transition: 0.5s;
+}
+
+.userCard .pictureAndText:hover {
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.userCard .pictureAndText .picture {
+    float: left;
+}
+
+.userCard .pictureAndText .text {
+    float: left;
+    margin-left: 65px;
+    width: 470px;
+}
+
+.userCard .pictureAndText .text .welcome {
+    background: #1a8cff;
+    color: white;
+    display: inline-block;
+    padding: 4px 16px;
+    line-height: 22px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.userCard .pictureAndText .text .welcome .triangle {
+    display: block;
+    border: 10px solid transparent;
+    width: 0px;
+    border-left-color: #1a8cff;
+    border-top-width: 0px;
+    position: absolute;
+    left: 4px;
+    top: 100%;
+}
+
+.userCard .pictureAndText .text>p {
+    font-size: 1.25em;
+}
+
+.userCard .pictureAndText .text dl dt,
+.userCard .pictureAndText .text dl dd {
+    float: left;
+    padding: 5px 0;
+}
+
+.userCard .pictureAndText .text dl dt {
+    width: 30%;
+}
+
+.userCard .pictureAndText .text dl dd {
+    width: 70%;
+    color: #9da0a7;
+}
+
+.userCard .pictureAndText .text dl dd>a {
+    color: #9da0a7;
+    text-decoration: none;
+}
+
+.skill {
+    max-width: 940px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 6em;
+}
+
+.skill>h2 {
+    text-align: center;
+    color: #3d4451;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.skill>ol {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.5);
+    padding: 42px 50px 10px;
+    margin-top: 30px;
+}
+
+.skill>ol>li {
+    float: left;
+    width: 48%;
+    box-sizing: border-box;
+}
+
+.skill>ol>li:nth-child(even) {
+    float: right;
+}
+
+.skill>ol>li h3 {
+    font-size: 1.5em;
+    line-height: 2.1;
+    padding-right: 40px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.skill>ol>li>.progressBar {
+    height: 5px;
+    /* background: #d9d9d9; */
+    background: #c6d9eb;
+    border-radius: 2px;
+    margin: 4px 0 40px;
+}
+
+.skill>ol>li>.progressBar>.progress {
+    height: 100%;
+    /* background: #c2dcf5; */
+    background: #1a8cff;
+    /* width: 70%; */
+    border-radius: 2px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#works {
+    padding: 0 8%;
+}
+
+#works .row h2 {
+    text-align: center;
+}
+
+#works .row .box .image.shop {
+    width: 100%;
+    height: auto;
+    background: url(../2d/shop-2D.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#works .row .box .image.video {
+    width: 100%;
+    height: auto;
+    background: url(../2d/video-2D.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#works .row .box img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.5);
+}
+
+#works .row .box .titlebox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#works .row .box .titlebox>h3 {
+    font-size: 22px;
+    display: inline-block;
+}
+
+#works .row .box .titlebox .btn-info {
+    padding: 2px 16px;
+    margin: 20px 0 10px 32px;
+    border-color: none;
+}
+
+#works .row .box>p {
+    font-size: 1.1em;
+    color: #1a8cff;
+}
+
+.city-feature {
+    margin-bottom: 5px;
+}
+
+.project {
+    margin-bottom: 100px;
+}
+
+.text .titlebox {
+    margin-top: 100px;
+}
